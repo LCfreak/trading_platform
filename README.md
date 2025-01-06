@@ -12,10 +12,11 @@ contract folder- npm install
 # running the project
 inside client folder - npm run start (runs website)
 
-inside contract folder - npx hardhat node (runs local blockchain)
+inside contract folder - npx hardhat ignition deploy ./ignition/modules/TGE.js --network ganache
 # setup metamask
-chainid - 31337
+chainid - 5777
 
-rpc - http://127.0.0.1:8545/
+rpc - HTTP://127.0.0.1:7545
+
 
 

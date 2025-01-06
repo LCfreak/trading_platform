@@ -77,7 +77,8 @@ const WalletConnect= () => {
 
   return (
     <div>
-      <nav className="navbar">
+      <nav className="navbar"
+      >
         <h2 className="logo">TRADE</h2>
         <button
           onClick={handleWalletButton}
@@ -89,7 +90,7 @@ const WalletConnect= () => {
         </button>
       </nav>
       <main className="main">
-        <h1>Welcome to Trading App</h1>
+       
         <p>
           {account
             ? "Wallet is connected. You can disconnect anytime."
